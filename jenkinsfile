@@ -11,7 +11,7 @@ pipeline {
                 echo 'texting'
             }
         }
-        stage('Deploy'){
+        stage('Deploy') {
             steps {
                 echo 'Deploying app'
             }
